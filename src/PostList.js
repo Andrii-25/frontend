@@ -36,9 +36,9 @@ class PostList extends Component {
   render() {
     const {posts, isLoading} = this.state;
 
-    if (isLoading) {
-      return <p>Loading...</p>;
-    }
+    //if (isLoading) {
+     //return <p>Loading...</p>;
+   //}
 
     const postList = posts.map(post => {
       //const text = `${post.text || ' '} ${post.author || ' '} ${post.date || ' '}`;
